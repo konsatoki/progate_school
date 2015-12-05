@@ -20,4 +20,38 @@ body{
 .container h1{
 	font-size: 55px;
 	font-family:'Dosis', sans-serif; 
+	font-weight: 400;
+}
+
+
+header{ 
+	height: 50px;
+	font-family: 'Dosis', sans-serif;
+	z-index: 1;
+}
+
+.header-left{
+	float: left;
+	padding-left: 15px;
+}
+
+.header-left p{
+	color: #777;
+	font-size: 20px;
+	line-height: 8px;
+	font-weight: bold;
+
+}
+
+.header-right{
+	float: right;
+	padding-right: 250px
+}
+
+.header-right li{
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 8px;
 }
