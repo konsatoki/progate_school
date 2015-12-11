@@ -8,6 +8,7 @@ body{
 	background-size: cover;
 	color: white;
 	height: 313px;
+
 }
 
 .container{
@@ -18,7 +19,7 @@ body{
 }
 
 .container h1{
-	font-size: 55px;
+	font-size: 45px;
 	font-family:'Dosis', sans-serif; 
 	font-weight: 400;
 }
@@ -67,10 +68,57 @@ header{
 	color: #555;
 }
 
-.lesson-wrapper h2{
+
+h2{
 	color: #555;
 	text-align: center;
 	font-size: 32px;
 	padding: 40px;
 	font-weight: normal;
 }
+
+.lesson-wrapper{
+	height: 600px;
+	width: 100%
+
+}
+
+.description-wrapper{
+	height: 600px;
+	color: #888;
+    width: 100%;
+    background: #f4f4f4;
+}
+
+.content{
+	width: 50%;
+	float: left;
+}
+
+.content-title{
+	color: #444;
+}
+
+.content-content{
+	color: #888;
+}
+
+.white-section{
+	height: 300px;
+}
+
+
+.course-wrapper{
+	height: 800px;
+	color: #888;
+    width: 100%;
+    background: #f4f4f4;
+}
+.course{
+	width: 200px;
+	height: 500px;
+	background: white;
+	padding: 20px;
+	float: left;
+}
+
