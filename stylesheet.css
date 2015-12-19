@@ -58,9 +58,11 @@ header{
 
 .header-left p{
 	color: #777;
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 8px;
-	font-weight: 900;
+	font-weight: 700;
+	margin-left: 200px;
+	    font-family: 'Dosis', sans-serif;
 
 }
 
@@ -295,10 +297,78 @@ h2{
   }
 
 .columns{
+	margin: 70px auto;
+	clear: left;
+	margin-right: 10px;
+
+}
+
+.column{
+	width: 446px;
+	height: 330px;
+	background-color: white;
+	padding: 5px;
+	margin: 15px;
+}
+
+.column p{
+	text-align: center;
+	font-weight: bold;
+}
+
+.columns-1 .columns-2 .columns-3{
 	margin: 0 auto;
+	width: 950px;
 }
 
 .column img{
-	width: 400px;
+	width: 440px;
 	height: 250px;
+	margin: 0 auto;
+	padding: 3px;
 }	
+
+.menu{
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+}
+
+.column-wrapper h2{
+	padding-bottom: 0;
+}
+.menu div{
+	margin-right: 10px;
+	text-align: center;
+}
+
+.show-all{
+	width: 80px;
+	height: 25px;
+	background-color: #009ca8;
+	float: left;
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+.column-button{
+	width: 80px;
+	height: 25px;
+	background-color: white;
+	float: left;
+	color: black;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.programming-button{
+	width: 160px;
+	height: 25px;
+	background-color: white;
+	float: left;
+	color: black;
+	font-weight: bold;
+	padding-top: 10px;
+}
